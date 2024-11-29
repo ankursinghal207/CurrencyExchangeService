@@ -23,6 +23,8 @@ This repository holds the currency conversion service code. The objective of thi
 
 ## Further potential enhancements for production
 - Support for additional currencies
+- I would implement caching to cache the response from ExchangeRate-Api as it does not change frequently.
+- Secure the Http end point
 - Add more validations
 - More test coverage
-- Givent Task is to create the `POST` request, but code makes `GET` request to ExchangeRate-API. I suggest to change the client API call to `GET` request instead of `POST`
+- Given task is to create the `POST` request, but code makes `GET` request to ExchangeRate-Api. I suggest to change the client API call to `GET` request instead of `POST`
